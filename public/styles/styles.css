@@ -1,0 +1,121 @@
+body {
+  min-height: 2000px;
+  padding-top: 40px;
+}
+
+.main-font {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.secondary-font {
+  font-size: 12px
+}
+
+.navbar {
+  height: 44px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  border-color: #fff;
+}
+
+.navbar-default {
+  /*height: 56px;*/
+  background-color: #fff;
+  border-color: #fff;
+  padding: 6px 44px 0 30px;
+}
+
+.navbar-toggle {
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.navbar-right{
+  margin-right: -5px;
+  background-color: white;
+  margin-top: 6px;
+}
+
+.navbar-collapse{
+  margin-right: -9px;
+}
+
+.jumbotron {
+  background-size: 100%;
+  background-position: center;
+  background-position-y: -366px;
+  margin: 0 43px;
+}
+
+}
+
+
+.contact-container{
+  margin-bottom: 52px;
+}
+
+/*adjusting for removal from container for full-width background image*/
+.about {
+  margin: 0 55px;
+  color: white;
+
+}
+
+
+.parallax-1 {
+  background-image: url("https://static1.squarespace.com/static/548688c0e4b0e8544760ca61/t/584f230b414fb546429bd265/1481581334554/Sauteed+Green+Beans.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  background-image: url("/Users/danha/wdi/rice-paper/images/rustic-wood.jpg");
+  /* Set a specific height */
+  height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.no-container {
+  margin: 0 47px 21px;
+}
+
+/*out of container spacing for full width background*/
+.about-spacing{
+  margin: 0px -27px;
+  padding: 17px;
+}
+
+/*fix for the fixed-top height issue*/
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 32px;
+}
+.navbar {min-height:24px !important;}
+
+.location-hours {
+  display:flex;
+}
+
+.hours {
+  margin-left: 23px;
+}
+
+td:first-child {
+  font-weight: bold;
+  padding-right: 6px;
+}
