@@ -78,7 +78,7 @@ body {
 }
 
 .parallax-2 {
-  background-image: url("/Users/danha/wdi/rice-paper/images/rustic-wood.jpg");
+  background-image: url("../../images/rustic-wood.jpg");
   /* Set a specific height */
   height: auto;
 
