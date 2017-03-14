@@ -119,3 +119,238 @@ td:first-child {
   font-weight: bold;
   padding-right: 6px;
 }
+
+/*iphone 5 and smaller*/
+@media screen and (max-width: 320px) {
+
+  .jumbotron {
+    height: 586px !important;
+    margin: 0px;
+    width: 372px;
+    border-bottom: unset !important;
+  }
+  /*main image alignment*/
+  .jumbotron .container {
+    max-width: 100% !important;
+    margin-right: 67px !important;
+    margin-top: -223px !important;
+  }
+
+  /*hamburger button alignment*/
+  .navbar-header {
+    max-width: 343px !important;
+  }
+
+  .navbar{
+    margin-left: -31px !important;
+  }
+
+  .navbar-toggle {
+    margin-right: 14px !important;
+    margin-top: 0px !important;
+  }
+
+  /*menu alignment*/
+  .no-container {
+    margin-left: 10px !important;
+    margin-right: 5px !important;
+  }
+
+  /*about alignment*/
+  .parallax-2{
+    margin-right: -51px !important;
+    padding-top: 13px !important;
+    padding-bottom: 2px !important;
+  }
+
+  .contact-container ul, .contact-container li {
+    margin: 12px 20px 2px 1px !important;
+  }
+
+  .row .contact-container{
+    margin-left: -53px !important;
+    margin-bottom: -73px !important;
+  }
+
+  .about {
+    margin: -3px 97px 5px 49px;
+  }
+
+  .about-spacing{
+    margin: 0px -53px !important
+  }
+
+  .map {
+    display:none !important;
+  }
+
+  .location-hours {
+    margin-right: 23px !important;
+  }
+
+  .connect{
+    margin-left: -3px !important;
+  }
+
+  .connect.lead{
+    margin-left: 11px !important;
+  }
+
+}
+
+
+/*iphone 6*/
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+  .jumbotron {
+    height: 586px !important;
+    margin: 0px;
+    width: 394px;
+    border-bottom: unset !important;
+  }
+  /*main image alignment*/
+  .jumbotron .container {
+    max-width: 100% !important;
+    margin-right: 67px !important;
+    margin-top: -223px !important;
+  }
+
+  /*hamburger button alignment*/
+  .navbar-header {
+    max-width: 385px !important;
+  }
+
+  .navbar{
+    margin-left: -31px !important;
+  }
+
+  .navbar-toggle {
+    margin-right: 14px !important;
+    margin-top: 0px !important;
+  }
+
+  /*menu alignment*/
+  .no-container {
+    margin-left: 10px !important;
+    margin-right: 5px !important;
+  }
+
+  /*about alignment*/
+  .parallax-2{
+    margin-right: -51px !important;
+    padding-top: 13px !important;
+    padding-bottom: 2px !important;
+  }
+
+  .contact-container ul, .contact-container li {
+    margin: 12px 20px 2px 1px !important;
+  }
+
+  .row .contact-container{
+    margin-left: -53px !important;
+    margin-bottom: -73px !important;
+  }
+
+  .about {
+    margin: -3px 97px 5px 49px;
+  }
+
+  .about-spacing{
+    margin: 0px -53px !important
+  }
+
+  .map {
+    display:none !important;
+  }
+
+  .location-hours {
+    margin-right: 23px !important;
+  }
+
+  .connect{
+    margin-left: -3px !important;
+  }
+
+  .connect.lead{
+    margin-left: 11px !important;
+  }
+
+}
+
+/*iphone 6 plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+
+  .jumbotron {
+    height: 586px !important;
+    margin: 0px;
+    width: 407px;
+    border-bottom: unset !important;
+  }
+  /*main image alignment*/
+  .jumbotron .container {
+    max-width: 100% !important;
+    margin-right: 67px !important;
+    margin-top: -223px !important;
+  }
+
+  /*hamburger button alignment*/
+  .navbar-header {
+    max-width: 417px !important;
+  }
+
+  .navbar{
+    margin-left: -31px !important;
+  }
+
+  .navbar-toggle {
+    margin-right: 14px !important;
+    margin-top: 0px !important;
+  }
+
+  /*menu alignment*/
+  .no-container {
+    margin-left: 10px !important;
+    margin-right: 15px !important;
+  }
+
+  /*about alignment*/
+  .parallax-2{
+    margin-right: -51px !important;
+    padding-top: 13px !important;
+    padding-bottom: 2px !important;
+  }
+
+  .contact-container ul, .contact-container li {
+    margin: 12px 20px 2px 1px !important;
+  }
+
+  .row .contact-container{
+    margin-left: -53px !important;
+    margin-bottom: -73px !important;
+  }
+
+  .about {
+    margin: -3px 97px 5px 49px;
+  }
+
+  .about-spacing{
+    margin: 0px -53px !important
+  }
+
+  .map {
+    display:none !important;
+  }
+
+  .location-hours {
+    margin-right: 23px !important;
+  }
+
+  .connect{
+    margin-left: -3px !important;
+  }
+
+  .connect.lead{
+    margin-left: 11px !important;
+  }
+
+}
