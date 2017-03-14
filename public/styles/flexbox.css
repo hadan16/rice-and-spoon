@@ -1,0 +1,47 @@
+/*.flex {
+  display:flex;
+  background-color: lightgrey;
+  padding: 10px;
+  flex-direction: column;
+}*/
+
+.item {
+	color: #fff;
+	padding: 15px;
+	margin: 15px;
+	background: #3db5da;
+	border-radius: 3px;
+  padding: 15px;
+}
+
+.jumbotron {
+  height: 723px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
+  border-bottom: solid;
+  border-bottom-width: 23px;
+}
+
+#map{
+  display: flex;
+  justify-content:center;
+}
+
+.contact-container ul, .contact-container li {
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  margin: 12px 23px 0px 23px;
+}
+
+.connect {
+  margin-top: 70px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  margin-left: 43px;
+}
