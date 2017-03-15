@@ -32,13 +32,13 @@ body {
   margin-top: 0px;
 }
 
-.navbar-right{
+.navbar-right {
   margin-right: -5px;
   background-color: white;
   margin-top: 6px;
 }
 
-.navbar-collapse{
+.navbar-collapse  {
   margin-right: -9px;
 }
 
@@ -219,6 +219,18 @@ table {
     overflow-x: hidden;
   }
 
+  .navbar-collapse{
+    position: absolute;
+    margin-top: -20px;
+    border:white;
+
+  }
+  .nav>li {
+      position: relative;
+      display: block;
+      margin-right: 414px;
+  }
+
 }
 
 
@@ -308,6 +320,18 @@ table {
     overflow-x: hidden;
   }
 
+  .navbar-collapse{
+    position: absolute;
+    margin-top: -20px;
+    border:white;
+
+  }
+  .nav>li {
+      position: relative;
+      display: block;
+      margin-right: 414px;
+  }
+
 }
 
 /*iphone 6 plus*/
@@ -395,4 +419,17 @@ table {
     max-width: 100%;
     overflow-x: hidden;
   }
+
+  .navbar-collapse{
+    position: absolute;
+    margin-top: -20px;
+    border:white;
+
+  }
+  .nav>li {
+      position: relative;
+      display: block;
+      margin-right: 414px;
+  }
+
 }
