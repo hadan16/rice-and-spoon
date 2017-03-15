@@ -102,7 +102,7 @@ body {
 /*fix for the fixed-top height issue*/
 .navbar-nav > li > a, .navbar-brand {
     padding-top:4px !important;
-    padding-bottom:0 !important;
+    padding-bottom:0 !important;o
     height: 32px;
 }
 .navbar {min-height:24px !important;}
@@ -113,11 +113,21 @@ body {
 
 .hours {
   margin-left: 23px;
+  margin-bottom: 36px;
 }
 
 td:first-child {
   font-weight: bold;
   padding-right: 6px;
+}
+
+/*hides mobile version of unresponsive google map*/
+.map-mobile {
+  display:none;
+}
+
+table {
+  min-width: 200px;
 }
 
 /*iphone 5 and smaller*/
@@ -141,7 +151,11 @@ td:first-child {
     max-width: 343px !important;
   }
 
-  .navbar{
+  div.navbar-header{
+    width: 331px;
+  }
+
+  .navbar {
     margin-left: -31px !important;
   }
 
@@ -184,6 +198,10 @@ td:first-child {
     display:none !important;
   }
 
+  .map-mobile {
+    display:unset;
+  }
+
   .location-hours {
     margin-right: 23px !important;
   }
@@ -194,6 +212,11 @@ td:first-child {
 
   .connect.lead{
     margin-left: 11px !important;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
 }
@@ -264,6 +287,10 @@ td:first-child {
     display:none !important;
   }
 
+  .map-mobile {
+    display:unset;
+  }
+
   .location-hours {
     margin-right: 23px !important;
   }
@@ -276,6 +303,11 @@ td:first-child {
     margin-left: 11px !important;
   }
 
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
 }
 
 /*iphone 6 plus*/
@@ -284,7 +316,7 @@ td:first-child {
   .jumbotron {
     height: 586px !important;
     margin: 0px;
-    width: 407px;
+    width: 414px;
     border-bottom: unset !important;
   }
   /*main image alignment*/
@@ -305,7 +337,7 @@ td:first-child {
   }
 
   .navbar-toggle {
-    margin-right: 14px !important;
+    margin-right: 7px !important;
     margin-top: 0px !important;
   }
 
@@ -343,6 +375,10 @@ td:first-child {
     display:none !important;
   }
 
+  .map-mobile {
+    display:unset;
+  }
+
   .location-hours {
     margin-right: 23px !important;
   }
@@ -355,4 +391,8 @@ td:first-child {
     margin-left: 11px !important;
   }
 
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
