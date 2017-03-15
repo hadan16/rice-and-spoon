@@ -229,6 +229,10 @@ table {
       position: relative;
       display: block;
       margin-right: 414px;
+      font-size: 17px;
+      padding: 6px;
+      text-align: right;
+      padding-left: 230px;
   }
 
 }
@@ -330,6 +334,10 @@ table {
       position: relative;
       display: block;
       margin-right: 414px;
+      font-size: 17px;
+      padding: 6px;
+      text-align: right;
+      padding-left: 287px;
   }
 
 }
@@ -430,6 +438,10 @@ table {
       position: relative;
       display: block;
       margin-right: 414px;
+      font-size: 23px;
+      padding: 6px;
+      text-align: right;
+      padding-left: 305px;
   }
 
 }
