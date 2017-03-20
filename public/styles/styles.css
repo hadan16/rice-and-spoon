@@ -86,6 +86,8 @@ body {
 
 .parallax-2 {
   background-image: url("../../images/rustic-wood.jpg");
+  /*background-image: url("../../images/pho.jpeg");*/
+
   /* Set a specific height */
   height: auto;
 

@@ -63,5 +63,34 @@ $(document).ready(function(){
   sr.reveal('.five');
   sr.reveal('.six');
 
+ //animate social icons
+  $('.social-call').on('mouseover', function(){
+    $('.social-call').addClass('animated rotateIn');
+    $('.social-call').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+    $('.social-call').removeClass('animated rotateIn');
+    });
+  });
+
+  $('.social-yelp').on('mouseover', function(){
+    $('.social-yelp').addClass('animated rotateIn');
+    $('.social-yelp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+    $('.social-yelp').removeClass('animated rotateIn');
+    });
+  });
+
+  $('.social-fb').on('mouseover', function(){
+    $('.social-fb').addClass('animated rotateIn');
+    $('.social-fb').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+    $('.social-fb').removeClass('animated rotateIn');
+    });
+  });
+
+  $('.social-email').on('mouseover', function(){
+    $('.social-email').addClass('animated rotateIn');
+    $('.social-email').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+    $('.social-email').removeClass('animated rotateIn');
+    });
+  });
+
 
 });
