@@ -54,5 +54,14 @@ $(document).ready(function(){
   });
 
 
+  //scroll reveal
+  window.sr = ScrollReveal();
+  sr.reveal('.one');
+  sr.reveal('.two');
+  sr.reveal('.three');
+  sr.reveal('.four');
+  sr.reveal('.five');
+  sr.reveal('.six');
+
 
 });
