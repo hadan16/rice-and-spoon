@@ -441,6 +441,17 @@ footer {
     margin-left: 0px;
   }
 
+  .parallax-2{
+    margin: 0;
+  }
+
+  p.one{
+    font-size: 18px !important;
+  }
+  .underbar {
+  display: none;
+  }
+
 }
 
 
@@ -546,6 +557,28 @@ footer {
       padding-left: 287px;
   }
 
+  .menu-center {
+    display: flex;
+    padding-top: 18px;
+    padding-left: 83px;
+    flex-direction: column;
+  }
+
+  #myImg2{
+    margin-left: 0px;
+  }
+
+  .parallax-2{
+    margin: 0;
+  }
+
+  p.one{
+    font-size: 18px !important;
+  }
+  .underbar {
+  display: none;
+  }
+
 }
 
 /*iphone 6 plus*/
@@ -648,6 +681,26 @@ footer {
       padding: 6px;
       text-align: right;
       padding-left: 305px;
+  }
+
+  .menu-center {
+    display: flex;
+    padding-top: 18px;
+  }
+
+  #myImg2{
+    margin-left: 0px;
+  }
+
+  .parallax-2{
+    margin: 0;
+  }
+
+  p.one{
+    font-size: 18px !important;
+  }
+  .underbar {
+  display: none;
   }
 
 }
