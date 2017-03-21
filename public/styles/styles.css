@@ -79,7 +79,6 @@ a.nav-link {
 }
 
 
-
 .contact-container{
   margin-bottom: 52px;
 }
@@ -129,7 +128,7 @@ a.nav-link {
 .parallax-2 {
   background-image: url("../../images/rustic-wood.jpg");
   /*background-image: url("../../images/pho.jpeg");*/
-
+  margin: 0 43px;
   /* Set a specific height */
   height: auto;
 
@@ -182,8 +181,20 @@ p.card-header.connect.lead, div.row.contact-container ul{
   margin-left: 0px;
 }
 
-table {
-  min-width: 200px;
+.menu-center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 18px;
+  margin: 0 -4px;
+}
+
+.menu-above{
+  margin-top: 16px;
+}
+
+#myImg2{
+  margin-left: 40px;
 }
 
 footer {
@@ -355,6 +366,8 @@ footer {
   /*about alignment*/
   .parallax-2{
     margin-right: -51px !important;
+    margin-left: -1px !important;
+
     padding-top: 13px !important;
     padding-bottom: 2px !important;
   }
@@ -415,6 +428,17 @@ footer {
       padding: 6px;
       text-align: right;
       padding-left: 230px;
+  }
+
+  .menu-center {
+    display: flex;
+    padding-top: 18px;
+    padding-left: 53px;
+    flex-direction: column;
+  }
+
+  #myImg2{
+    margin-left: 0px;
   }
 
 }
