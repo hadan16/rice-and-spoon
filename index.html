@@ -23,14 +23,202 @@
 </head>
 
 <body>
-<h1>Riceandspoon.com coming soon..</h1>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- <nav> -->
+        <!-- Hamburger menu -->
+        <div class="navbar-header ">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand main-font" href="#home">Rice and Spoon</a>
+          <!-- <span class="navbar-brand secondary-font">Vietnamese Cuisine</span> -->
+        </div>
+        <!-- /Hamburger menu -->
+        <!-- Fixed menu  -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="#menu">Menu</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link" href="#map">Location</a></li>
+
+            <!-- dropdown menu -->
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Feature 1</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">more separated link</a></li>
+              </ul>
+            </li> -->
+            <!-- /dropdown menu -->
+          </ul>
+        </div><!--/.nav-collapse -->
+        <!-- /fixed menu -->
+    </nav>
+    <!-- /Fixed navbar -->
+
+    <!-- Jumbotron header -->
+    <div id="home"class="jumbotron jumbotron-fluid text-center parallax-1">
+      <div class="container animated fadeInDown">
+        <h1 class="display-3">Rice and Spoon</h1>
+        <p class="lead">Vietnamese Cuisine</p>
+        <!-- <div class="img-responsive center-block"><img src="https://thumbs.dreamstime.com/t/white-rice-wooden-spoon-isolated-white-background-80079424.jpg" class="img-fluid"></div> -->
+      </div>
+    </div>
+
+
+
+  <!-- menu -->
+  <div class="no-container" id="menu">
+  <h3 class="card-header">MENU</h3>
+  <span class="underbar"></span>
+
+      <!-- Menu 1 thumbnail -->
+    <img id="myImg" src="images/menu-1.jpg" alt="Page 1/2" width="200" height="259">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+
+    <!-- Menu 2 thumbnail -->
+    <img id="myImg2" src="images/menu-2.jpg" alt="Page 1/2" width="200" height="259">
+
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+      <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal2').style.display='none'">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img02">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption2"></div>
+    </div>
+
+  <!-- /menu -->
+  </div>
+      <!-- about -->
+      <!-- <span class="anchor" id="about"></span> -->
+      <div class="parallax-2" id="about">
+        <div class="about-spacing one">
+          <h3 class="card-header about">ABOUT</h3>
+          <span class="underbar"></span>
+
+          <div class="card-block about">
+            <p class="card-text lead fadeInDown">Rice and Spoon is a family owned restaurant curated by Mama Tran and her son. The restaurant was developed to share the family's favorite home cooking recipes and spoon licking dishes made by Mama Tran. Rice and Spoon believes that great food brings indviduals together no matter how far you are or how busy you are in life. Life is too short to miss on special moments with your family, so our motto has always been “live to eat and not eat to live”. Our restaurant presents a chic yet modern-rustic feel, and the ambience is designed to reflect our current home living— relaxing, comforting and inviting with tasty food. We want bring the yummiest and freshest ingredients into our menu, yet stay authentic to Vietnamese food to the community. Thank you for visiting our page and we hope to have a visit from you soon!
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <div class="no-container" id="gallery">
+      <!-- image carousel -->
+      <h3 class="card-header">GALLERY</h3>
+      <span class="underbar"></span>
+
+      <div class="your-class multiple">
+        <div><img style="padding-right:25px; max-height:402px" class="img-responsive" src="images/flyer.png"></div>
+        <div><img style="padding-right:25px; max-height:402px" class="img-responsive" src="images/menu-preview.jpg"></div>
+      </div>
+
+
+      <!-- map -->
+      <!-- <span class="anchor" id="map"></span> -->
+      <div class="row" id="map">
+        <div class="card map">
+          <h3 class="card-header">LOCATION</h3>
+          <span class="underbar"></span>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.5514973820527!2d-122.05840638465442!3d37.54206847980249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbe5ec42ecdfd%3A0x23261d13f9600ac8!2s7060+Jarvis+Ave%2C+Newark%2C+CA+94560!5e0!3m2!1sen!2sus!4v1489368190259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!-- <div class="card hours">
+          <h3>Hours</h3>
+          <table>
+            <tr>
+              <td>Mon</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+            <tr>
+              <td>Tue</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+            <tr>
+              <td>Wed</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+            <tr>
+              <td>Thu</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+            <tr>
+              <td>Fri</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+            <tr>
+              <td>Sat</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+            <tr>
+              <td>Sun</td>
+              <td>10:30 am - 9:00 pm</td>
+            </tr>
+          </table>
+        </div> -->
+      </div>
+
+      <p class="one" style="text-align: center; font-weight: bold; font-size: 23px; margin-top: 74px;">Open Daily: 10:30 am - 9:00 pm</p>
+
+      <div class="card map-mobile">
+        <a href="https://www.google.com/maps?ll=37.505429,-122.077268&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=7060+Jarvis+Ave+Newark,+CA+94560"><img class="img-responsive" src="images/mobile-map.png"></a>
+      </div>
+
+      <!-- connect -->
+      <span class="anchor" id="contact"></span>
+      <div class="row contact-container one">
+        <p class="card-header connect lead">Connect with us!</p>
+        <ul>
+          <li class="social-call"><a href="tel:510-742-3915"><img border="0" alt="Call" title="Call" src="images/call.png" width="50" height="50"></a></li>
+          <li class="social-yelp"><a href="https://www.yelp.com/biz/rice-paper-asian-american-cuisine-newark"><img border="0" alt="Yelp" title="Yelp" src="images/yelp.png" width="50" height="50"></a></li>
+          <li class="social-fb"><a href="https://www.facebook.com/riceandspoon/"><img border="0" alt="Facebook" title="Facebook" src="images/facebook.png" width="50" height="50"></a></li>
+          <li class="social-email"><a href="mailto:riceandspoon.eat@gmail.com"><img border="0" alt="E-mail" title="E-mail" src="images/email.png" width="50" height="50"></a></li>
+        </ul>
+      </div>
+
+      <br>
+
+  </div>
+
+  <footer>
+      <span class="footer-address">7060 JARVIS AVE NEWARK CA 94560 TEL: 510 742 3915</span>
+      <span class="footer-name">© 2017 - RICE AND SPOON</span>
+  </footer>
+
 
   <!-- scripts -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript" src="public/scripts/app.js"></script>
 </body>
 
