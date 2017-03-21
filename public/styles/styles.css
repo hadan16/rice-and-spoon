@@ -113,10 +113,8 @@ a.nav-link {
 }
 
 
-
-
 .parallax-1 {
-  background-image: url("../../images/pho-dark.png");
+  background: url("../../images/pho-dark.png") black;
 
   /* Set a specific height */
   height: 500px;
