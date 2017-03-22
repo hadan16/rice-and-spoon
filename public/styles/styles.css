@@ -341,7 +341,7 @@ footer {
   .jumbotron .container {
     max-width: 100% !important;
     margin-right: 67px !important;
-    margin-top: -223px !important;
+    margin-top: -123px !important;
   }
 
   /*hamburger button alignment*/
@@ -461,6 +461,11 @@ footer {
     margin-bottom: -17px
   }
 
+  .slick-slide img {
+    display: block;
+    margin-left: 11px;
+  }
+
 }
 
 
@@ -468,7 +473,7 @@ footer {
 @media screen and (min-width: 321px) and (max-width: 375px) {
 
   .jumbotron {
-    height: 586px !important;
+    height: 633px !important;
     margin: 0px;
     width: 394px;
     border-bottom: unset !important;
@@ -477,7 +482,7 @@ footer {
   .jumbotron .container {
     max-width: 100% !important;
     margin-right: 67px !important;
-    margin-top: -223px !important;
+    margin-top: -69px !important;
   }
 
   /*hamburger button alignment*/
@@ -572,7 +577,7 @@ footer {
 
   .menu-center {
     display: flex;
-    padding-top: 18px;
+    /*padding-top: 18px;*/
     padding-left: 83px;
     flex-direction: column;
   }
@@ -592,13 +597,18 @@ footer {
   display: none;
   }
 
+  .slick-slide img {
+    display: block;
+    margin-left: 11px;
+  }
+
 }
 
 /*iphone 6 plus*/
 @media screen and (min-width: 376px) and (max-width: 414px) {
 
   .jumbotron {
-    height: 586px !important;
+    height: 698px !important;
     margin: 0px;
     width: 414px;
     border-bottom: unset !important;
@@ -607,7 +617,7 @@ footer {
   .jumbotron .container {
     max-width: 100% !important;
     margin-right: 67px !important;
-    margin-top: -223px !important;
+    margin-top: -19px !important;
   }
 
   /*hamburger button alignment*/
@@ -718,9 +728,13 @@ footer {
 
   .margin-above{
     margin-bottom: -15px;
-}
-
-
   }
+
+  .slick-slide img {
+    display: block;
+    margin-left: 14px;
+  }
+
+
 
 }
