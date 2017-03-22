@@ -3,6 +3,11 @@ body {
   padding-top: 40px;
 }
 
+/*modal unclickable issue*/
+body.modal-open div.modal-backdrop {
+    z-index: 0;
+}
+
 .main-font {
   font-family: 'Gloria Hallelujah', cursive;
 }
@@ -452,6 +457,10 @@ footer {
   display: none;
   }
 
+  .menu-above{
+    margin-bottom: -17px
+  }
+
 }
 
 
@@ -509,11 +518,15 @@ footer {
   }
 
   .about {
-    margin: -3px 97px 5px 49px;
+    margin: -3px 97px 21px 49px;
   }
 
   .about-spacing{
     margin: 0px -53px !important
+  }
+
+  .card-header{
+    margin-bottom: 22px;
   }
 
   .map {
@@ -701,6 +714,13 @@ footer {
   }
   .underbar {
   display: none;
+  }
+
+  .margin-above{
+    margin-bottom: -15px;
+}
+
+
   }
 
 }
