@@ -26,6 +26,7 @@ body.modal-open div.modal-backdrop {
 
 a.nav-link {
   font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -71,6 +72,8 @@ a.nav-link {
   text-align: center;
   display: block;
   margin-top: 53px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .underbar {
@@ -186,6 +189,19 @@ p.card-header.connect.lead, div.row.contact-container ul{
   margin-left: 0px;
 }
 
+p.card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 26px;
+  margin-top: -15px;
+  margin-bottom: 18px;
+}
+
+h3.card-header{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .menu-center {
   display: flex;
   justify-content: center;
@@ -207,6 +223,8 @@ footer {
   background-color: #777777;
   color: white;
   height: 59px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .footer-address {
@@ -315,8 +333,11 @@ footer {
       width: 100%;
   }
 }
-/*end popup modal menu*/
 
+
+p.one{
+  font-family: 'Open Sans', sans-serif;
+}
 
 
 
@@ -417,6 +438,7 @@ footer {
   html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .navbar-collapse{
@@ -452,6 +474,8 @@ footer {
 
   p.one{
     font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif;
+
   }
   .underbar {
   display: none;
@@ -532,6 +556,8 @@ footer {
 
   .card-header{
     margin-bottom: 22px;
+    font-family: 'Open Sans', sans-serif;
+
   }
 
   .map {
