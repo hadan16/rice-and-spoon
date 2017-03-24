@@ -4,10 +4,10 @@ $(document).ready(function(){
   'use strict';
   $('.your-class').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
-    slidesToShow: 2,
-    slidesToScroll: 3,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     swipeToSlide: true,
     autoplay: true,
     responsive: [
@@ -136,6 +136,9 @@ $(document).ready(function(){
     modal.style.display = "none";
   }
 
+  // Current year in footer updates automatically
+  var yr = new Date().getFullYear();
+  $("#year").text(`© ${yr} - RICE AND SPOON`);
 
 
 });
