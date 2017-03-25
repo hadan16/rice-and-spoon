@@ -494,16 +494,9 @@ p.one{
   }
 
   .parallax-1 {
-    background: url("../../images/pho-dark.png") black;
-
-    /* Set a specific height */
-    height: 300px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: unset;
-    background-position: center;
-    background-repeat: unset;
-    background-size: 914px;
+    background: url("../../images/mobile-background.jpg") black;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
 }
@@ -644,16 +637,9 @@ p.one{
   }
 
   .parallax-1 {
-    background: url("../../images/pho-dark.png") black;
-
-    /* Set a specific height */
-    height: 300px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: unset;
-    background-position: center;
-    background-repeat: unset;
-    background-size: 1139px;
+    background: url("../../images/mobile-background.jpg") black;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
 }
@@ -773,6 +759,10 @@ p.one{
     margin: 0;
   }
 
+  p.card-text {
+    margin-top: 16px;
+}
+
   p.one{
     font-size: 18px !important;
   }
@@ -787,6 +777,12 @@ p.one{
   .slick-slide img {
     display: block;
   }
+
+  .parallax-1 {
+    background: url("../../images/mobile-background.jpg") black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
 
 /*ipad*/
@@ -796,14 +792,16 @@ p.one{
     height: 972px;
   }
 
+  .parallax-1 {
+    background: url("../../images/mobile-background.jpg") black;
+    /*background-size: unset;*/
 
-}
 
-/*ipad pro*/
-@media screen and (min-width: 769px) and (max-width: 1366px) {
-
-  #home {
-      height: 1305px;
+    background-attachment: unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
+
 
 }
