@@ -103,6 +103,10 @@ a.nav-link {
     outline: none
 }
 
+.img-responsive{
+  margin: 0 auto;
+}
+
 .nav-pills {
   display: flex;
   justify-content: center;
@@ -487,7 +491,19 @@ p.one{
 
   .slick-slide img {
     display: block;
-    margin-left: 11px;
+  }
+
+  .parallax-1 {
+    background: url("../../images/pho-dark.png") black;
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: unset;
+    background-position: center;
+    background-repeat: unset;
+    background-size: 914px;
   }
 
 }
@@ -625,7 +641,19 @@ p.one{
 
   .slick-slide img {
     display: block;
-    margin-left: 11px;
+  }
+
+  .parallax-1 {
+    background: url("../../images/pho-dark.png") black;
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: unset;
+    background-position: center;
+    background-repeat: unset;
+    background-size: 1139px;
   }
 
 }
@@ -758,9 +786,24 @@ p.one{
 
   .slick-slide img {
     display: block;
-    margin-left: 14px;
+  }
+}
+
+/*ipad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+
+  #home{
+    height: 972px;
   }
 
 
+}
+
+/*ipad pro*/
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+
+  #home {
+      height: 1305px;
+  }
 
 }

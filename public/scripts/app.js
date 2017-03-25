@@ -5,11 +5,12 @@ $(document).ready(function(){
   $('.your-class').slick({
     dots: true,
     infinite: true,
+    arrows: false,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
     swipeToSlide: true,
-    autoplay: true,
+    autoplay: false,
     responsive: [
       {
         breakpoint: 1024,
