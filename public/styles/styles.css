@@ -513,6 +513,10 @@ p.one{
     background-repeat: no-repeat;
   }
 
+  .hours-header{
+    margin-bottom: 31px;
+  }
+
 }
 
 
@@ -656,6 +660,7 @@ p.one{
     background-size: 100%;
   }
 
+
 }
 
 /*iphone 6 plus*/
@@ -796,6 +801,10 @@ p.one{
     background: url("../../images/mobile-background.jpg") black;
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+
+  .hours-header{
+    margin-bottom: 31px;
   }
 }
 
