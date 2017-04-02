@@ -89,6 +89,7 @@ a.nav-link {
 
 .contact-container{
   margin-bottom: 52px;
+  margin-top: 69px;
 }
 
 /*adjusting for removal from container for full-width background image*/
@@ -176,8 +177,19 @@ a.nav-link {
 }
 
 .hours {
-  margin-left: 23px;
-  margin-bottom: 36px;
+  display: flex;
+  /*margin-left: 23px;*/
+  /*margin-bottom: 36px;*/
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.hours-header {
+  display: flex;
+  margin-bottom: -15px;
+  margin-top: 79px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 td:first-child {
