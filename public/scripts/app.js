@@ -115,7 +115,7 @@ $(document).ready(function(){
     modal.style.display = "none";
   }
 
-  //popup modal menu 2
+//popup modal menu 2
   // Get the modal
   var modal = document.getElementById('myModal2');
 
@@ -137,7 +137,51 @@ $(document).ready(function(){
     modal.style.display = "none";
   }
 
-  // Current year in footer updates automatically
+//popup modal menu 3
+  // Get the modal
+  var modal = document.getElementById('myModal3');
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg3');
+  var modalImg = document.getElementById("img03");
+  var captionText = document.getElementById("caption3");
+  img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+//popup modal menu 4
+  // Get the modal
+  var modal = document.getElementById('myModal4');
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg4');
+  var modalImg = document.getElementById("img04");
+  var captionText = document.getElementById("caption4");
+  img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+// Current year in footer updates automatically
   var yr = new Date().getFullYear();
   $("#year").text(`© ${yr} - RICE AND SPOON`);
 
